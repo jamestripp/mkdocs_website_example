@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - run: sed -i '1i new text' <(sed '1d' ./README.md) > docs/index.md
+      - run: cat README.md > docs/index.md
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
