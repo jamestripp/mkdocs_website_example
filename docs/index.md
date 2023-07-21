@@ -1,7 +1,4 @@
----
-title: "Containerised R Development Environment"
----
-
+# Containerised R Development Environment
 The containerized development environment for R is a Google Summer of Code 2023 project. Our aim is to provide a standard environment to enable the exploration and development of the R source code. The project is currently under active development.
 
 Click on the button below followed by "Create Codespace" to create and enter your own web based containerised develoment environment.

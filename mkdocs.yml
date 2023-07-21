@@ -1,0 +1,7 @@
+site_name: mkdocs
+site_url: https://example.com/
+theme: readthedocs
+nav:
+    - Home: index.md
+    - 'Tutorials':
+        - 'Building R': 'tutorials/building_r.md'
